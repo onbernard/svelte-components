@@ -1,3 +1,15 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import AudioPlayer from "$lib/audio/AudioPlayer.svelte";
+</script>
+
+
+<div class="components">
+    <AudioPlayer src="liberee_delivree.mp3" title="La reine des neiges - Libérée, délivrée"/>
+</div>
+
+<style>
+    .components {
+        display: flex;
+        flex-direction: column;
+    }
+</style>
